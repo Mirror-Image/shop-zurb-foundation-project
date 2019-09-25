@@ -1,0 +1,29 @@
+<div class="content__bestsellers grid-container">
+	<div class="grid-x grid-margin-x">
+		<div class="content__bestsellers-item cell card">
+			
+			<div class="card-section">
+				<h5 class="text-left">Product 1</h5>
+				<p>Brand: <a href="#">Apple</a></p>
+				<p>Product Code: Product 1</p>
+				<p>Availability: In Stock</p>
+				<div class="content__bestsellers-item-prices">
+					<span class="content__bestsellers-item-prices-newprice">111 000 $</span>
+					<span class="content__bestsellers-item-prices-oldprice">102 000 $</span>
+				</div>
+				<p>Ex Tax: $3000.00</p>
+			</div>
+			<form action="cart.php">
+				<div class="grid-container">
+					<label for="qty">Qty:</label>
+					<input id="qty" type="number" name="qty" value="1" min="1" required>
+				</div>
+				<div class="content__bestsellers-item-buttons-group expanded button-group">
+					<button class="content__bestsellers-item-buttons-group-button button" type="button"><i class="fa fa-shopping-cart"></i><span class="hide-for-small-only">&nbsp;&nbsp;ADD&nbsp;TO&nbsp;CART</span></button>
+					<button class="content__bestsellers-item-buttons-group-button button" type="button" data-tooltip tabindex="1" title="Add to Wish List" data-position="top" data-alignment="center"><i class="fa fa-heart"></i></button>
+					<button class="content__bestsellers-item-buttons-group-button button" type="button" data-tooltip tabindex="1" title="Compare this Product" data-position="top" data-alignment="center"><i class="fa fa-exchange-alt"></i></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,98 @@
+.header {
+  &-topmenu {
+    background-color: $light-gray;
+    margin-bottom: $global-margin;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      color: $dark-gray;
+
+      &:hover,
+      &:focus {
+        color: #444444;
+      }
+    }
+
+    &__hamburger {
+      display: flex;
+      align-items: center;
+    }
+
+    &__dropdown-menu {
+
+      .menu {
+
+        > li:last-of-type a {
+          padding-right: 0;
+        }
+
+        &.submenu > li:hover {
+          background-color: $light-gray;
+        }
+
+        li.is-active > a {
+          color: #444444;
+        }
+      }
+    }
+  }
+
+  &__mobile-accordion-menu {
+    margin-top: 39px;
+
+
+  }
+
+  &-medium-block {
+
+    &__logo {
+      &-image {
+        max-height: rem-calc(40);
+      }
+    }
+
+    &__search {
+      .input-group > :first-child {
+        border-radius: 7px 0 0 7px;
+      }
+
+      .input-group-button > :first-child {
+        border-radius: 0 7px 7px 0;
+      }
+    }
+
+    &__cart {
+      display: flex;
+      justify-content: flex-end;
+
+      button {
+        border-radius: 7px;
+      }
+    }
+  }
+
+  &-catalog-menu {
+    background-color: $primary-color;
+    margin-bottom: $global-margin;
+    border-radius: 7px;
+
+    .dropdown.menu > li > a {
+      color: $white;
+
+      &:hover,
+      &:focus {
+        background-color: lighten($primary-color, 5%);
+        color: $white;
+      }
+    }
+
+    .menu.submenu > li > a:hover {
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}

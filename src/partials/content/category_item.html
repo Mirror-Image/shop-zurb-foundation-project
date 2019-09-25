@@ -1,0 +1,22 @@
+<div class="content__bestsellers">
+	<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-4">
+		
+		{{#each category-data}}
+		<div class="content__bestsellers-item cell card">
+			<a href="{{href}}" title="{{title}}" class="content__bestsellers-item-link">
+				<div class="content__bestsellers-item-image text-center">
+					<img src="{{image}}" alt="{{title}}">
+				</div>
+			</a>
+			<div class="card-section">
+				<a href="{{href}}" class="content__bestsellers-item-title"><h5 class="text-left">{{title}}
+					{{#if bs}}
+					<span class="label alert">BESTSELLER</span>
+					{{/if}}
+				</h5></a>
+				<p class="content__bestsellers-item-description text-justify">{{description}}</p>
+			</div>
+		</div>
+		{{/each}}
+	</div>
+</div>

@@ -1,0 +1,404 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop - Product page</title>
+    <meta name="description" content="The best shop on the WEB">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+<body>
+  <div class="off-canvas position-left" id="offCanvasLeftSplit1" data-off-canvas>
+<!--    <button class="close-button" aria-label="Close menu" type="button" data-close>-->
+<!--      <span aria-hidden="true">&times;</span>-->
+<!--    </button>-->
+    <!-- Menu -->
+    
+    	<div class="header__mobile-accordion-menu">
+    		<button class="close-button" aria-label="Close menu" type="button" data-close>
+    			<span aria-hidden="true">&times;</span>
+    		</button>
+    		<h4 class="text-center">Catalog</h4>
+    		<ul class="vertical menu accordion-menu" data-accordion-menu data-multi-open="false">
+    			<li>
+    				<a href="category.html"><span>Computers</span></a>
+    				<ul class="menu">
+    					<li><a href="subcategory.html">Desktops</a></li>
+    					<li><a href="subcategory.html">Monoblocks</a></li>
+    					<li><a href="subcategory.html">Notebooks</a></li>
+    				</ul>
+    			</li>
+    			<li>
+    				<a href="category.html"><span>Mobile Phones</span></a>
+    				<ul class="menu">
+    					<li><a href="subcategory.html">Smartphones</a></li>
+    				</ul>
+    			</li>
+    			<li>
+    				<a href="category.html"><span>TV</span></a>
+    			</li>
+    			<li>
+    				<a href="category.html"><span>Video</span></a>
+    				<ul class="menu">
+    					<li><a href="subcategory.html">Cameras</a></li>
+    					<li><a href="subcategory.html">Camcoders</a></li>
+    				</ul>
+    			</li>
+    		</ul>
+    		<h4 class="text-center">Site menu</h4>
+    		<ul class="vertical menu accordion-menu" data-accordion-menu data-multi-open="false">
+    			<li>
+    				<a href="#"><span>Information</span></a>
+    				<ul class="menu vertical nested">
+    					<li><a href="#">About Us</a></li>
+    					<li><a href="#">Delivery Information</a></li>
+    					<li><a href="#">Privacy Policy</a></li>
+    					<li><a href="#">Terms &amp; Conditions</a></li>
+    				</ul>
+    			</li>
+    			<li>
+    				<a href="#"><span>Customer Service</span></a>
+    				<ul class="menu vertical nested">
+    					<li><a href="#">Contact Us</a></li>
+    					<li><a href="#">Returns</a></li>
+    					<li><a href="#">Site Map</a></li>
+    				</ul>
+    			</li>
+    			<li>
+    				<a href="#"><span>Extras</span></a>
+    				<ul class="menu vertical nested">
+    					<li><a href="#">Brands</a></li>
+    					<li><a href="#">Gift Certificates</a></li>
+    					<li><a href="#">Affiliate</a></li>
+    					<li><a href="#">Specials</a></li>
+    				</ul>
+    			</li>
+    			<li>
+    				<a href="#"><span>Information</span></a>
+    				<ul class="menu vertical nested">
+    					<li><a href="#">My Account</a></li>
+    					<li><a href="#">Order History</a></li>
+    					<li><a href="#">Wish List</a></li>
+    					<li><a href="#">Newsletter</a></li>
+    				</ul>
+    			</li>
+    		</ul>
+    	</div>
+    
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+    <!-- Your page content lives here -->
+    
+    <header class="header">
+    	<div class="header-topmenu">
+    		<div class="header-topmenu__wrapper grid-container">
+    			<div class="header-topmenu__hamburger">
+    				<button type="button" class="header-topmenu__hamburger-icon menu-icon dark hide-for-medium" data-toggle="offCanvasLeftSplit1"></button>
+    			</div>
+    			<div class="header-topmenu__dropdown-menu">
+    				<ul class="dropdown menu" data-dropdown-menu>
+    					
+    					<li>
+    						<a href="#"><i class="fas fa-phone-alt"></i>&nbsp;<span class="show-for-medium">000-123-45-67</span></a>
+    					</li>
+    					<li>
+    						<a href="#"><i class="fa fa-user"></i>&nbsp;<span class="show-for-medium">My Account</span></a>
+    						<ul class="menu">
+    							<li><a href="#">Sign In</a></li>
+    							<li><a href="#">Sign Up</a></li>
+    						</ul>
+    					</li>
+    					<li>
+    						<a href="#"><i class="fa fa-heart"></i>&nbsp;<span class="show-for-medium">My Wishlist</span></a>
+    					</li>
+    					<li>
+    						<a href="#"><i class="fa fa-shopping-cart"></i>&nbsp;<span class="show-for-medium">My Cart</span></a>
+    					</li>
+    					<li>
+    						<a href="#"><i class="fa fa-share"></i>&nbsp;<span class="show-for-medium">Checkout</span></a>
+    					</li>
+    				</ul>
+    			</div>
+    			
+    		</div>
+    	</div>	
+    	<div class="header-medium-block grid-container">
+    		<div class="grid-x">
+    			<div class="header-medium-block__logo cell medium-4">
+    				<a href="/" class="thumbnail"><img src="assets/img/logo.png" alt="site-image" class="header-medium-block__logo-image"></a>
+    			</div>
+    			<div class="header-medium-block__search cell medium-4">
+    				<div class="input-group">
+    					<input class="input-group-field" type="search" placeholder="Search...">
+    					<div class="input-group-button">
+    						<input type="submit" class="button" value="Search">
+    					</div>
+    				</div>
+    			</div>
+    			<div class="header-medium-block__cart cell medium-4 show-for-medium">
+    				<button class="button" type="button" data-toggle="my-dropdown"><i class="fa fa-shopping-cart"></i>&nbsp;0 item(s) -&nbsp;0 $</button>
+    				<div class="dropdown-pane" id="my-dropdown" data-dropdown data-auto-focus="true">
+    					<div class="callout">
+    						<p>Your shopping cart is empty!</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>	
+    	<div class="grid-container">
+    		<div class="header-catalog-menu">
+    			<ul class="dropdown menu show-for-medium" data-dropdown-menu>
+    				<li>
+    					<a href="category.html"><span>Computers</span></a>
+    					<ul class="menu">
+    						<li><a href="subcategory.html">Desktops</a></li>
+    						<li><a href="subcategory.html">Monoblocks</a></li>
+    						<li><a href="subcategory.html">Notebooks</a></li>
+    					</ul>
+    				</li>
+    				<li>
+    					<a href="category.html"><span>Mobile Phones</span></a>
+    					<ul class="menu">
+    						<li><a href="subcategory.html">Smartphones</a></li>
+    					</ul>
+    				</li>
+    				<li>
+    					<a href="category.html"><span>TV</span></a>
+    				</li>
+    				<li>
+    					<a href="category.html"><span>Video</span></a>
+    					<ul class="menu">
+    						<li><a href="subcategory.html">Cameras</a></li>
+    						<li><a href="subcategory.html">Camcoders</a></li>
+    					</ul>
+    				</li>
+    			</ul>
+    		</div>
+    	</div>	
+    </header>
+    
+    
+    <div class="product-page grid-container">
+    	<nav aria-label="You are here:" role="navigation">
+    		<ul class="breadcrumbs">
+    			<li><a href="/">Home</a></li>
+    			<li><a href="category.html">Category</a></li>
+    			<li>
+    				<a href="subcategory.html">Subcategory</a>
+    			</li>
+    			<li>
+    				<span class="show-for-sr">Product 1</span> Product 1
+    			</li>
+    		</ul>
+    	</nav>	<div class="grid-x">
+    		<div class="medium-8 large-9 cell">
+    			<div class="product-page__images grid-container text-center">
+    				<img id="zoom_01" src='assets/img/apple_cinema_30-200x200.jpg' data-zoom-image="assets/img/large/apple_cinema_30-200x200-large.jpg"/>
+    				<img id="zoom_02" src='assets/img/71taZG+IL2L._SL1500.jpg' data-zoom-image="assets/img/large/71taZG+IL2L._SL1500-large.jpg"/>
+    				<img id="zoom_03" src='assets/img/51X9rIdtiAL._SL1500.jpg' data-zoom-image="assets/img/large/51X9rIdtiAL._SL1500-large.jpg"/>
+    				<img id="zoom_04" src='assets/img/61oE61Gf4ZL._SL1500.jpg' data-zoom-image="assets/img/61oE61Gf4ZL._SL1500-large.jpg"/>
+    			</div>			<div class="grid-container">
+    				<div class="product-page__tabs hide-for-small-only">
+    					<ul class="tabs" data-tabs id="example-tabs">
+    						<li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Description</a></li>
+    						<li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Specifications</a></li>
+    						<li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">Сomments</a></li>
+    					</ul>
+    					<div class="tabs-content" data-tabs-content="example-tabs">
+    						<div class="tabs-panel is-active" id="panel1">
+    							<p>Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.</p>
+    							<div class="responsive-embed widescreen">
+    								<iframe width="560" height="315" src="https://www.youtube.com/embed/siR-jGJigXM" frameborder="0" allowfullscreen></iframe>
+    							</div>
+    						</div>
+    						<div class="tabs-panel" id="panel2">
+    							<table class="unstriped hover">
+    								<thead>
+    								<tr>
+    									<th width="200">Table Header</th>
+    									<th>Table Header</th>
+    								</tr>
+    								</thead>
+    								<tbody>
+    								<tr>
+    									<td>Content Goes Here</td>
+    									<td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+    								
+    								</tr>
+    								<tr>
+    									<td>Content Goes Here</td>
+    									<td>Content Goes Here</td>
+    								</tr>
+    								<tr>
+    									<td>Content Goes Here</td>
+    									<td>Content Goes Here</td>
+    								</tr>
+    								</tbody>
+    							</table>
+    						</div>
+    						<div class="tabs-panel" id="panel3">
+    							<div class="media-object">
+    								<div class="media-object-section">
+    									<div class="thumbnail">
+    										<img src="assets/img/avatar-1.jpg">
+    									</div>
+    								</div>
+    								<div class="media-object-section">
+    									<h4>Dreams feel real while we're in them.</h4>
+    									<p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>				<ul class="product-page__accordion accordion show-for-small-only" data-accordion data-allow-all-closed="true">
+    					<li class="accordion-item is-active" data-accordion-item>
+    						<!-- Accordion tab title -->
+    						<a href="#" class="accordion-title">Description</a>
+    						
+    						<!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    						<div class="accordion-content" data-tab-content>
+    							<p>Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.</p>
+    							<div class="responsive-embed widescreen">
+    								<iframe width="560" height="315" src="https://www.youtube.com/embed/siR-jGJigXM" frameborder="0" allowfullscreen></iframe>
+    							</div>
+    						</div>
+    					</li>
+    					<li class="accordion-item" data-accordion-item>
+    						<!-- Accordion tab title -->
+    						<a href="#" class="accordion-title">Specifications</a>
+    						
+    						<!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    						<div class="accordion-content" data-tab-content>
+    							<table class="unstriped hover">
+    								<thead>
+    								<tr>
+    									<th>Table Header</th>
+    									<th>Table Header</th>
+    								</tr>
+    								</thead>
+    								<tbody>
+    								<tr>
+    									<td>Content Goes Here</td>
+    									<td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+    									
+    								</tr>
+    								<tr>
+    									<td>Content Goes Here</td>
+    									<td>Content Goes Here</td>
+    								</tr>
+    								<tr>
+    									<td>Content Goes Here</td>
+    									<td>Content Goes Here</td>
+    								</tr>
+    								</tbody>
+    							</table>
+    						</div>
+    					</li>
+    					<li class="accordion-item" data-accordion-item>
+    						<!-- Accordion tab title -->
+    						<a href="#" class="accordion-title">Сomments</a>
+    						
+    						<!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    						<div class="accordion-content" data-tab-content>
+    							<div class="media-object">
+    								<div class="media-object-section">
+    									<div class="thumbnail">
+    										<img src="assets/img/avatar-1.jpg">
+    									</div>
+    								</div>
+    								<div class="media-object-section">
+    									<h4>Dreams feel real while we're in them.</h4>
+    									<p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+    								</div>
+    							</div>
+    						</div>
+    					</li>
+    				</ul>			</div>
+    		</div>
+    		<div class="medium-4 large-3 cell">
+    			<div class="content__bestsellers grid-container">
+    				<div class="grid-x grid-margin-x">
+    					<div class="content__bestsellers-item cell card">
+    						
+    						<div class="card-section">
+    							<h5 class="text-left">Product 1</h5>
+    							<p>Brand: <a href="#">Apple</a></p>
+    							<p>Product Code: Product 1</p>
+    							<p>Availability: In Stock</p>
+    							<div class="content__bestsellers-item-prices">
+    								<span class="content__bestsellers-item-prices-newprice">111 000 $</span>
+    								<span class="content__bestsellers-item-prices-oldprice">102 000 $</span>
+    							</div>
+    							<p>Ex Tax: $3000.00</p>
+    						</div>
+    						<form action="cart.php">
+    							<div class="grid-container">
+    								<label for="qty">Qty:</label>
+    								<input id="qty" type="number" name="qty" value="1" min="1" required>
+    							</div>
+    							<div class="content__bestsellers-item-buttons-group expanded button-group">
+    								<button class="content__bestsellers-item-buttons-group-button button" type="button"><i class="fa fa-shopping-cart"></i><span class="hide-for-small-only">&nbsp;&nbsp;ADD&nbsp;TO&nbsp;CART</span></button>
+    								<button class="content__bestsellers-item-buttons-group-button button" type="button" data-tooltip tabindex="1" title="Add to Wish List" data-position="top" data-alignment="center"><i class="fa fa-heart"></i></button>
+    								<button class="content__bestsellers-item-buttons-group-button button" type="button" data-tooltip tabindex="1" title="Compare this Product" data-position="top" data-alignment="center"><i class="fa fa-exchange-alt"></i></button>
+    							</div>
+    						</form>
+    					</div>
+    				</div>
+    			</div>		</div>
+    	</div>
+    </div>
+    
+    
+    
+    <footer class="footer">
+    	<div class="footer grid-container full">
+    		<div class="grid-container">
+    			<div class="footer__menu grid-x grid-padding-y align-justify">
+    				<div class="hide-for-small-only medium-3 large-2 cell">
+    					<h6 class="footer__menu-title">Information</h6>
+    					<ul class="vertical menu">
+    						<li><a class="footer__menu-link" href="#">About Us</a></li>
+    						<li><a class="footer__menu-link" href="#">Delivery Information</a></li>
+    						<li><a class="footer__menu-link" href="#">Privacy Policy</a></li>
+    						<li><a class="footer__menu-link" href="#">Terms &amp; Conditions</a></li>
+    					</ul>
+    				</div>
+    				<div class="hide-for-small-only medium-3 large-2 cell">
+    					<h6 class="footer__menu-title">Customer Service</h6>
+    					<ul class="vertical menu">
+    						<li><a class="footer__menu-link" href="#">Contact Us</a></li>
+    						<li><a class="footer__menu-link" href="#">Returns</a></li>
+    						<li><a class="footer__menu-link" href="#">Site Map</a></li>
+    					</ul>
+    				</div>
+    				<div class="hide-for-small-only medium-3 large-2 cell">
+    					<h6 class="footer__menu-title">Extras</h6>
+    					<ul class="vertical menu">
+    						<li><a class="footer__menu-link" href="#">Brands</a></li>
+    						<li><a class="footer__menu-link" href="#">Gift Certificates</a></li>
+    						<li><a class="footer__menu-link" href="#">Affiliate</a></li>
+    						<li><a class="footer__menu-link" href="#">Specials</a></li>
+    					</ul>
+    				</div>
+    				<div class="hide-for-small-only medium-3 large-2 cell">
+    					<h6 class="footer__menu-title">Information</h6>
+    					<ul class="vertical menu">
+    						<li><a class="footer__menu-link" href="#">My Account</a></li>
+    						<li><a class="footer__menu-link" href="#">Order History</a></li>
+    						<li><a class="footer__menu-link" href="#">Wish List</a></li>
+    						<li><a class="footer__menu-link" href="#">Newsletter</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    			<div class="footer__copyright grid-x">
+    				<div class="cell">
+    					<h6 class="text-center">&copy; Site Name</h6>
+    				</div>
+    			</div>
+    		</div>
+    	</div></footer>  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

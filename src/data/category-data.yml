@@ -1,0 +1,16 @@
+- title: Subcategory 1
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/apple_cinema_30-200x200.jpg
+  href: subcategory.html
+- title: Subcategory 2
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/canon_eos_5d_1-200x200.jpg
+  href: subcategory.html
+- title: Subcategory 3
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/iphone_1-200x200.jpg
+  href: subcategory.html
+- title: Subcategory 4
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/macbook_1-200x200.jpg
+  href: subcategory.html

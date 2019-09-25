@@ -1,0 +1,25 @@
+- title: Product 1
+  href: '#'
+  src: https://demo.opencart.com/image/cache/catalog/demo/banners/MacBookAir-1140x380.jpg
+  number: 0
+  active: is-active
+- title: Product 2
+  href: '#'
+  src: https://demo.opencart.com/image/cache/catalog/demo/banners/iPhone6-1140x380.jpg
+  number: 1
+- title: Product 3
+  href: '#'
+  src: assets/img/slider-3.jpg
+  number: 2
+- title: Product 1
+  href: '#'
+  src: https://demo.opencart.com/image/cache/catalog/demo/banners/MacBookAir-1140x380.jpg
+  number: 3
+- title: Product 2
+  href: '#'
+  src: https://demo.opencart.com/image/cache/catalog/demo/banners/iPhone6-1140x380.jpg
+  number: 4
+- title: Product 3
+  href: '#'
+  src: assets/img/slider-3.jpg
+  number: 5

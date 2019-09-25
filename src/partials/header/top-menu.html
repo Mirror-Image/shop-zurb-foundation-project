@@ -1,0 +1,25 @@
+<div class="header-topmenu">
+	<div class="header-topmenu__wrapper grid-container">
+		<div class="header-topmenu__hamburger">
+			<button type="button" class="header-topmenu__hamburger-icon menu-icon dark hide-for-medium" data-toggle="offCanvasLeftSplit1"></button>
+		</div>
+		<div class="header-topmenu__dropdown-menu">
+			<ul class="dropdown menu" data-dropdown-menu>
+				
+				{{#each top-menu-data}}
+				<li>
+					<a href="{{href}}"><i class="{{icon}}"></i>&nbsp;<span class="show-for-medium">{{title}}</span></a>
+					{{#if subtitle}}
+					<ul class="menu">
+						{{#each subtitle}}
+						<li><a href="{{href}}">{{title}}</a></li>
+						{{/each}}
+					</ul>
+					{{/if}}
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+		
+	</div>
+</div>

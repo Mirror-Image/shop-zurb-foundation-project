@@ -1,0 +1,143 @@
+.content {
+
+  &__bestsellers {
+    &-item {
+      overflow: hidden;
+
+      &-link {
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      &-title h5 {
+        font-weight: bold;
+      }
+
+      &-description {
+        color: $dark-gray;
+        line-height: 1.5;
+      }
+
+      &-prices-newprice {
+        font-weight: 600;
+      }
+
+      &-prices-oldprice {
+        color: $dark-gray;
+        text-decoration: line-through;
+      }
+
+      &-buttons-group {
+        width: 100.6%;
+        &-button {
+          margin-right: 0 !important;
+          margin-bottom: 0 !important;
+          border-right: 1px solid lightgray;
+          padding: 0.85rem;
+          background-color: $light-gray;
+
+          &:hover,
+          &:focus {
+            background-color: #dddddd;
+          }
+
+          &:hover i,
+          &:focus i,
+          &:hover span,
+          &:focus span {
+            color: #444444;
+          }
+
+          &:last-of-type {
+            border-right: 1px solid transparent;
+          }
+
+          i, span {
+            color: $dark-gray;
+            font-weight: 600;
+            font-size: 0.8rem;
+          }
+
+          .fa {
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.category,
+.subcategory {
+  min-height: 63.2vh;
+}
+
+.product-page {
+  min-height: 63.2vh;
+
+  &__images,
+  &__tabs {
+    margin-bottom: 16px;
+  }
+}
+
+.label {
+  vertical-align: top;
+}
+
+.accordion-title::before {
+  color: $dark-gray;
+}
+
+.orbit {
+  &-previous,
+  &-next {
+    color: #cacaca;
+
+    &:hover,
+    &:focus {
+      background: none;
+      color: $dark-gray;
+    }
+  }
+}
+
+.button-group {
+  margin-bottom: 0;
+}
+
+table {
+  margin-bottom: 0;
+}
+
+.tabs {
+  border-radius: 7px 7px 0 0;
+
+  &-content {
+    border-radius: 0 0 7px 7px;
+  }
+
+  &-title:first-child > a[aria-selected='true'] {
+    border-radius: 7px 0 0 0;
+  }
+}
+
+.accordion-item {
+
+  &:first-child > :first-child {
+    border-radius: 7px 7px 0 0;
+  }
+
+  &:last-child > :last-child {
+    border-radius: 0 0 7px 7px;
+  }
+
+  &:last-child:not(.is-active) > .accordion-title {
+    border-radius: 0 0 7px 7px;
+  }
+}
+
+iframe {
+  border-radius: 7px;
+}

@@ -1,0 +1,42 @@
+- title: Information
+  href: '#'
+  menu:
+    - subtitle: About Us
+      href: '#'
+    - subtitle: Delivery Information
+      href: '#'
+    - subtitle: Privacy Policy
+      href: '#'
+    - subtitle: Terms & Conditions
+      href: '#'
+- title: Customer Service
+  href: '#'
+  menu:
+    - subtitle: Contact Us
+      href: '#'
+    - subtitle: Returns
+      href: '#'
+    - subtitle: Site Map
+      href: '#'
+- title: Extras
+  href: '#'
+  menu:
+    - subtitle: Brands
+      href: '#'
+    - subtitle: Gift Certificates
+      href: '#'
+    - subtitle: Affiliate
+      href: '#'
+    - subtitle: Specials
+      href: '#'
+- title: Information
+  href: '#'
+  menu:
+    - subtitle: My Account
+      href: '#'
+    - subtitle: Order History
+      href: '#'
+    - subtitle: Wish List
+      href: '#'
+    - subtitle: Newsletter
+      href: '#'

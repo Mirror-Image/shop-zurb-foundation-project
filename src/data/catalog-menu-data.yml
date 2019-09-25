@@ -1,0 +1,23 @@
+- category: Computers
+  href: 'category.html'
+  subcategory:
+    - category: Desktops
+      href: 'subcategory.html'
+    - category: Monoblocks
+      href: 'subcategory.html'
+    - category: Notebooks
+      href: 'subcategory.html'
+- category: Mobile Phones
+  href: 'category.html'
+  subcategory:
+    - category: Smartphones
+      href: 'subcategory.html'
+- category: TV
+  href: 'category.html'
+- category: Video
+  href: 'category.html'
+  subcategory:
+    - category: Cameras
+      href: 'subcategory.html'
+    - category: Camcoders
+      href: 'subcategory.html'

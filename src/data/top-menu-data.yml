@@ -1,0 +1,24 @@
+- title: 000-123-45-67
+  href: '#'
+  icon: fas fa-phone-alt
+  subtitle:
+- title: My Account
+  href: '#'
+  icon: fa fa-user
+  subtitle:
+    - title: Sign In
+      href: '#'
+    - title: Sign Up
+      href: '#'
+- title: My Wishlist
+  href: '#'
+  icon: fa fa-heart
+  subtitle:
+- title: My Cart
+  href: '#'
+  icon: fa fa-shopping-cart
+  subtitle:
+- title: Checkout
+  href: '#'
+  icon: fa fa-share
+  subtitle:

@@ -1,0 +1,21 @@
+<div class="footer grid-container full">
+	<div class="grid-container">
+		<div class="footer__menu grid-x grid-padding-y align-justify">
+			{{#each footer-menu-data}}
+			<div class="hide-for-small-only medium-3 large-2 cell">
+				<h6 class="footer__menu-title">{{title}}</h6>
+				<ul class="vertical menu">
+					{{#each menu}}
+					<li><a class="footer__menu-link" href="{{href}}">{{subtitle}}</a></li>
+					{{/each}}
+				</ul>
+			</div>
+			{{/each}}
+		</div>
+		<div class="footer__copyright grid-x">
+			<div class="cell">
+				<h6 class="text-center">&copy; Site Name</h6>
+			</div>
+		</div>
+	</div>
+</div>

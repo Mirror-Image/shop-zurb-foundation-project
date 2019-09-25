@@ -1,0 +1,25 @@
+- title: Product 1
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: assets/img/apple_cinema_30-200x200.jpg
+  price: 111 000 $
+  oldprice: 102 000 $
+  href: product-page.html
+- title: Product 2
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/canon_eos_5d_1-200x200.jpg
+  price: 1 000 $
+  oldprice:
+  href: product-page.html
+- title: Product 3
+  bs: 1
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/iphone_1-200x200.jpg
+  price: 700 $
+  oldprice: 900 $
+  href: product-page.html
+- title: Product 4
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
+  image: https://demo.opencart.com/image/cache/catalog/demo/macbook_1-200x200.jpg
+  price: 11 000 $
+  oldprice: 10 000 $
+  href: product-page.html

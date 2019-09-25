@@ -1,0 +1,18 @@
+<div class="grid-container">
+	<div class="header-catalog-menu">
+		<ul class="dropdown menu show-for-medium" data-dropdown-menu>
+			{{#each catalog-menu-data}}
+			<li>
+				<a href="{{href}}"><span>{{category}}</span></a>
+				{{#if subcategory}}
+				<ul class="menu">
+					{{#each subcategory}}
+					<li><a href="{{href}}">{{category}}</a></li>
+					{{/each}}
+				</ul>
+				{{/if}}
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+</div>

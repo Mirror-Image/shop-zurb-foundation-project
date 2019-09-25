@@ -1,0 +1,25 @@
+<nav aria-label="You are here:" role="navigation">
+	<ul class="breadcrumbs">
+		<li><a href="/">Home</a></li>
+		{{#ifpage 'category'}}
+		<li>
+			<span class="show-for-sr">Category</span> Category
+		</li>
+		{{/ifpage}}
+		{{#ifpage 'subcategory'}}
+		<li><a href="category.html">Category</a></li>
+		<li>
+			<span class="show-for-sr">Subcategory</span> Subcategory
+		</li>
+		{{/ifpage}}
+		{{#ifpage 'product-page'}}
+		<li><a href="category.html">Category</a></li>
+		<li>
+			<a href="subcategory.html">Subcategory</a>
+		</li>
+		<li>
+			<span class="show-for-sr">Product 1</span> Product 1
+		</li>
+		{{/ifpage}}
+	</ul>
+</nav>
