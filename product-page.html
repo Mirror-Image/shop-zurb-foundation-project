@@ -138,10 +138,10 @@
     				</div>
     			</div>
     			<div class="header-medium-block__cart cell medium-4 show-for-medium">
-    				<button class="button" type="button" data-toggle="my-dropdown"><i class="fa fa-shopping-cart"></i>&nbsp;0 item(s) -&nbsp;0 $</button>
+    				<button class="button" type="button" data-toggle="my-dropdown"><i class="fa fa-shopping-cart"></i><span id="cart-counter">&nbsp;0 item(s) -&nbsp;0 $</span></button>
     				<div class="dropdown-pane" id="my-dropdown" data-dropdown data-auto-focus="true">
     					<div class="callout">
-    						<p>Your shopping cart is empty!</p>
+    						<p id="cart-callout">Your shopping cart is empty!</p>
     					</div>
     				</div>
     			</div>
@@ -240,7 +240,7 @@
     							<p>Product Code: Product 1</p>
     							<p>Availability: In Stock</p>
     							<div class="content__bestsellers-item-prices">
-    								<span class="content__bestsellers-item-prices-newprice">111 000 $</span>
+    								<span class="content__bestsellers-item-prices-newprice current-price">111 000 $</span>
     								<span class="content__bestsellers-item-prices-oldprice">102 000 $</span>
     							</div>
     							<p>Ex Tax: $3000.00</p>
@@ -251,7 +251,7 @@
     								<input id="qty" type="number" name="qty" value="1" min="1" required>
     							</div>
     							<div class="content__bestsellers-item-buttons-group expanded button-group">
-    								<button class="content__bestsellers-item-buttons-group-button button" type="button"><i class="fa fa-shopping-cart"></i><span class="hide-for-small-only">&nbsp;&nbsp;ADD&nbsp;TO&nbsp;CART</span></button>
+    								<button class="content__bestsellers-item-buttons-group-button button item-action-cart" type="button"><i class="fa fa-shopping-cart"></i><span class="hide-for-small-only">&nbsp;&nbsp;ADD&nbsp;TO&nbsp;CART</span></button>
     								<button class="content__bestsellers-item-buttons-group-button button" type="button" data-tooltip tabindex="1" title="Add to Wish List" data-position="top" data-alignment="center"><i class="fa fa-heart"></i></button>
     								<button class="content__bestsellers-item-buttons-group-button button" type="button" data-tooltip tabindex="1" title="Compare this Product" data-position="top" data-alignment="center"><i class="fa fa-exchange-alt"></i></button>
     							</div>
