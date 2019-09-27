@@ -4,12 +4,15 @@ let buttonsContainer = document.querySelector('.content__bestsellers');
 
 let amount = +getGlobalVar('amount');
 let quantity = +getGlobalVar('quantity');
-let callout = +getGlobalVar('callout');
+let callout = getGlobalVar('callout');
+
 
 let cartCounter = quantity;
 let cartPrice = amount;
 
 cartCounterDisplay.innerHTML = `&nbsp;${cartCounter} item(s) -&nbsp; ${cartPrice} $`;
+
+callout == null ? cartCalloutDisplay.innerHTML = "Your shopping cart is empty!" : cartCalloutDisplay.innerHTML = "Your cart isn't empty! Check it out!";
 
 function saveGlobalVar(name, value) {
   sessionStorage.setItem(name, value); // сохраняем в localStorage значение
@@ -42,15 +45,14 @@ let btnClickHandler = (e) => {
 
     saveGlobalVar('amount', cartPrice);
     saveGlobalVar('quantity', cartCounter);
+    saveGlobalVar('callout', cartCounter);
 
     return `&nbsp;${cartCounter} item(s) -&nbsp; ${cartPrice} $`;
   })();
 
-
-
-  console.log(amount);
-  console.log(quantity);
-  console.log(callout);
+  // console.log(amount);
+  // console.log(quantity);
+  // console.log(callout);
 
   // const restoreHTML = target.innerHTML;
   //
