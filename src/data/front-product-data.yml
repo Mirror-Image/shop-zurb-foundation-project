@@ -1,6 +1,6 @@
 - title: Product 1
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad assumenda beatae consequatur dolor fuga fugiat harum numquam quidem reprehenderit.
-  image: assets/img/apple_cinema_30-200x200.jpg
+  image: assets/img/p-image-1.jpg
   price: 111 000 $
   oldprice: 102 000 $
   href: product-page.html
