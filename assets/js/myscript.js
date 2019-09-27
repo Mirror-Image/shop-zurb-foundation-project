@@ -10,7 +10,7 @@ let callout = getGlobalVar('callout');
 let cartCounter = quantity;
 let cartPrice = amount;
 
-cartCounterDisplay.innerHTML = `&nbsp;${cartCounter} item(s) -&nbsp; ${cartPrice} $`;
+cartCounterDisplay.innerHTML = `&nbsp;${cartCounter} item(s) - ${cartPrice} $`;
 
 callout == null ? cartCalloutDisplay.innerHTML = "Your shopping cart is empty!" : cartCalloutDisplay.innerHTML = "Your cart isn't empty! Check it out!";
 
@@ -19,6 +19,17 @@ function saveGlobalVar(name, value) {
 }
 function getGlobalVar(name) {
   return sessionStorage.getItem(name); // получаем значение свойства localStorage
+}
+
+let text = document.getElementsByTagName("input")[2];
+
+let inputQ;
+function a_value(o) {
+  inputQ = +o.value;
+
+  inputQ <= 0 ? inputQ = 0 : inputQ;
+
+  return inputQ;
 }
 
 buttonsContainer.onclick = function(event) {
@@ -40,14 +51,22 @@ let btnClickHandler = (e) => {
   saveGlobalVar('callout', cartCalloutDisplay.innerHTML);
 
   cartCounterDisplay.innerHTML = (() => {
-    cartPrice += +currentPrice;
-    cartCounter = ++cartCounter;
+
+    console.log(inputQ);
+
+    if (inputQ !== undefined) {
+      cartPrice = cartPrice + +currentPrice * inputQ;
+      cartCounter = cartCounter + inputQ;
+    } else {
+      cartPrice = cartPrice + +currentPrice;
+      cartCounter = ++cartCounter;
+    }
 
     saveGlobalVar('amount', cartPrice);
     saveGlobalVar('quantity', cartCounter);
     saveGlobalVar('callout', cartCounter);
 
-    return `&nbsp;${cartCounter} item(s) -&nbsp; ${cartPrice} $`;
+    return ` ${cartCounter} item(s) - ${cartPrice} $`;
   })();
 
   // console.log(amount);
