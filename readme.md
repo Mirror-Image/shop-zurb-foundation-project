@@ -1,3 +1,3 @@
 **Check out the result on page:**
 
-https://maksimborovik.github.io/shop-zurb-foundation-project/
+https://mirrorimage7.github.io/shop-zurb-foundation-project/
