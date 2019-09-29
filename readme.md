@@ -1,3 +1,3 @@
 **Check out the result on page:**
 
-https://mirrorimage7.github.io/shop-zurb-foundation-project/
+https://mirror-image.github.io/shop-zurb-foundation-project/
